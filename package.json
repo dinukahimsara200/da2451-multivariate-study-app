@@ -1,0 +1,17 @@
+{
+  "name": "da2451-multivariate-study-app",
+  "version": "1.0.0",
+  "description": "Offline Interactive Study Application for DA2451 Multivariate Methods in Business",
+  "author": "Dinuka Himsara",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node tests/verify_browser.js",
+    "test:avatar": "node tests/verify_avatars.js"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "katex": "^0.16.22",
+    "markdown-it": "^14.1.0"
+  }
+}

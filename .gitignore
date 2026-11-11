@@ -1,0 +1,22 @@
+# Prevent committing private/copyrighted PDF documents
+content/lectures/pdfs/*.pdf
+*.pdf
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Temporary test profiles, logs, and screenshots
+.tmp-*
+.tmp-edge*
+.tmp-cdp*
+*.log
+scratch/
+screenshots/
+dist/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
